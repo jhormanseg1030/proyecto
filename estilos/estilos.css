@@ -2,43 +2,20 @@
     margin: 0;
     padding: 0;
 }
-.cont2{
-    width: 20%;
-    flex: 10px;
-}
-
-
 .cont{
-    width: 60%;
+    width: 90%;
     margin: auto;
     display: grid;
-    gap: 6px;
-    grid-template-columns: 10% 200px 400px 500px;
-    grid-template-rows: 20px 8px 20px 20px 10px ;
-    grid-template-areas: "m h h";
-    
+    grid-template-columns: 90% 80%;
+    grid-template-rows: 90px 20px;
+    grid-template-areas: "h . n " ;
 }
+
 header{
     background-color: aqua;
     grid-area: h;
 }
-
 nav{
-    background-color: aquamarine;
+    background-color: rgb(37, 177, 177);
     grid-area: n;
 }
-
-section{
-    background-color: darkslateblue;
-    grid-area: s;
-}
-
-main {
-    background-color: blueviolet;
-    grid-area: m;
-}
-article{
-    background-color: lightskyblue;
-}
-
-
