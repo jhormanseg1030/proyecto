@@ -20,7 +20,7 @@ body{
     border: 1px solid black;
 }
 header{
-    background-color: #9b0487;
+    background-color: #8013ec;
     width: 100%;
     display: flex; 
     flex-direction: column;
@@ -38,33 +38,124 @@ nav{
     margin-top: 10px;
 }
 .container2{
-    background-color: rgb(22, 126, 126);
+    background-color: #2b0253;
+    border: 1px solid black;
     width: 95%;
-    height: 500px;
+    height: 630px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
 }
 .article{
-    background-color: rgb(138, 10, 138);
-    width: 60%;
-    height: 300px;
+    background-color: #8013ec;
+    border: 1px solid black;
+    width: 70%;
+    height: 580px;
     margin-left: 30px;
     margin-top: 20px;
+    float: left;
 }
 
 .header1{
-    background-color: mediumorchid;
+    background-color: #e380ff;
     width: 90%;
-    height: 60px;
+    height: 70px;
     margin-left: 30px;
     margin-top: 10px;
 }
 .div1{
-    background-color: aquamarine;
+    background-color: #e380ff;
     width: 90%;
-    height: 120px;
+    height: 170px;
     margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.section{
+    background-color: #e380ff;
+    border: 1px solid black;
+    width: 88%;
+    height: 200px;
+    margin-right: 42px;
+    margin-left: 45px;
     margin-top: 10px;
 }
 
+.article2{
+    background-color: #8013ec;
+    border: 1px solid black;
+    margin-top: 15px;
+    height: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.article3{
+    background-color: #8013ec;
+    border: 1px solid    black;
+    margin-top: 15px;
+    height: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container3{
+    width: 100%;
+    height: auto;
+    justify-content:baseline;
+    margin-top: 15px;
+    gap: 10px;
+}
+.aside1{
+    background-color: #8013ec;
+    border: 1px solid black;
+    float: right;
+    width: 20%;
+    height: 500px;
+    margin-top: -13px;
+    margin-left: auto;
+    margin-right: 31px;
+}
+.div2{
+    background-color: #e380ff;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 90%;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div3{
+    background-color: #e380ff;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 90%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div4{
+    background-color: #e380ff;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 90%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    background-color: #8013ec;
+    width: 95%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    margin-top: 15px;
+    width: 80%;
+}
